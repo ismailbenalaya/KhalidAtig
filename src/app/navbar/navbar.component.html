@@ -1,0 +1,36 @@
+<body>
+  <header>
+    <div class="logo">
+      <img src="/assets/img/LOGO.png" alt="Logo">
+    </div>
+    
+    <input type="checkbox" id="nav_check" hidden>
+    
+    <nav>
+      <ul>
+        <li><a (click)="scrollToSection('home')">{{ 'Navbar.HOME' | translate }}</a></li>
+        <li><a (click)="scrollToSection('about-me')">{{ 'Navbar.ABOUT_ME' | translate }}</a></li>
+        <li><a (click)="scrollToSection('services')">{{ 'Navbar.SERVICES' | translate }}</a></li>
+        <li><a (click)="scrollToSection('consultation')">{{ 'Navbar.CONSULTATION' | translate }}</a></li>
+        <li><a (click)="scrollToSection('reviews')">{{ 'Navbar.REVIEWS' | translate }}</a></li>
+        <li><a (click)="scrollToSection('contact')">{{ 'Navbar.CONTACT' | translate }}</a></li>
+        
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+          <select (change)="switchLanguage($event)">
+            <option value="ar">العربية</option>
+            <option value="en">English</option>
+            <option value="fr">Francais</option>
+          </select>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Hamburger menu -->
+    <label for="nav_check" class="hamberger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+  </header>
+</body>

@@ -1,0 +1,157 @@
+{
+    "Navbar": {
+      "HOME": "Accueil",
+      "ABOUT_ME": "À propos de moi",
+      "SERVICES": "Services",
+      "CONSULTATION":"Consultations",
+      "REVIEWS": "Avis",
+      "CONTACT": "Contact"
+    },
+    "Home": {
+        "COACH": "COACH",
+        "NAME": "Khaled Atik",
+        "TAGLINE": "Le développement continu est la voie pour atteindre tout succès, qu'il soit individuel ou collectif",
+        "Button" : "Commencez"
+    },
+    "About" :{
+      "title": " Khaled Atik :",
+      "description": "Khaled Atik est un coach de vie et stratège en développement des affaires, passionné par l'accompagnement des personnes à travers les crises psychologiques et la croissance personnelle. Avec plus de 12 ans d'expérience et la création de \"Atiq Global Development\", il se concentre sur le développement des individus et des entreprises. Khaled, ayant grandi dans une famille valorisant l'éthique, est dédié à améliorer le mode de vie et le potentiel de la communauté arabe."
+    },
+    "Services": {
+      "title": "Consultation en Développement Personnel",
+      "description": "Les séances de consultation en développement personnel se concentrent sur l'amélioration de divers aspects de la vie tels que la croissance personnelle, l'accomplissement des objectifs, la confiance en soi, la surmontée des défis émotionnels ou psychologiques et le développement des compétences personnelles.",
+      "benefits": {
+        "0": {
+          "title": "Focus Individuel",
+          "description": "Concentre sur les besoins et les objectifs individuels plutôt que sur une approche générale ou de groupe.",
+          "icon": "person"
+        },
+        "1": {
+          "title": "Conseils Personnalisés",
+          "description": "Le consultant offre des conseils et des stratégies basés sur une analyse détaillée de la situation du client.",
+          "icon": "leaf"
+        },
+        "2": {
+          "title": "Atteindre les Objectifs",
+          "description": "Le consultant personnel aide à définir des objectifs clairs et à créer un plan d'action réaliste pour les atteindre, avec un suivi continu des progrès.",
+          "icon": "flag"
+        },
+        "3": {
+          "title": "Surmonter les Défis Psychologiques",
+          "description": "Aide les individus à aborder et à surmonter les obstacles émotionnels ou psychologiques pouvant entraver la croissance.",
+          "icon": "heart"
+        },
+        "4": {
+          "title": "Augmenter la Conscience de Soi",
+          "description": "Les consultations aident les individus à comprendre leurs forces et leurs faiblesses, améliorant ainsi leur conscience de soi et leur interaction avec le monde.",
+          "icon": "eye"
+        },
+        "5": {
+          "title": "Soutien et Motivation",
+          "description": "Le consultant fournit un soutien et une motivation continus pour rester engagé dans le changement personnel et l'amélioration.",
+          "icon": "comments"
+        },
+        "6": {
+          "title": "Équilibre Travail-Vie Personnelle",
+          "description": "Les consultations se concentrent sur l'atteinte d'un équilibre sain entre le travail et la vie personnelle, améliorant ainsi la qualité de vie globale.",
+          "icon": "balance-scale"
+        }
+      }
+    },
+    "Contact": {
+      "contact_us": "Contactez Nous", 
+      "contactMessage": "Contactez-nous via le formulaire ou les coordonnées ci-dessous, et restons en contact.",
+      "email": "E-mail",
+      "name": "Nom",
+      "subject": "Sujet",
+      "message": "Message",
+      "contact_details": "Détails du Contact",
+      "phone": "Téléphone",
+      "address": "Adresse",
+      "send_now": "Envoyer Maintenant"
+    },
+    "REVIEWS": {
+      "TITLE": "Avis des clients",
+      "INTRO": "Voici ce que nos clients disent de leur expérience avec nous :",
+      "REVIEW_1": {
+        "TEXT": "Capable, confiant et il dégage un sentiment de confort."
+      },
+      "REVIEW_2": {
+        "TEXT": "Un coach qui peut persuader logiquement les participants."
+      },
+      "REVIEW_3": {
+        "TEXT": "Il nous a donné les éléments les plus importants en premier."
+      },
+      "REVIEW_4": {
+        "TEXT": "Incroyable capacité à parler et à toucher les esprits avec humour et légèreté."
+      },
+      "REVIEW_5": {
+        "TEXT": "Un coach d'une simplicité et d'une clarté exceptionnelles, transmettant l'information de manière compréhensible, motivant et simplifiant le chemin vers la réalisation des objectifs."
+      },
+      "REVIEW_6": {
+        "TEXT": "Énergie positive."
+      }
+    },
+    "MSG" :{
+    "SUCCESS_MESSAGE": "Votre email a été envoyé avec succès!",
+    "ERROR_MESSAGE": "Il y a eu une erreur lors de l'envoi de votre email."
+  },
+  "footer": {
+    
+      "companyTitle": "Entreprise",
+      "companyLinks": {
+        "home": "Accueil",
+        "services": "Nos services",
+        "review": "Avis",
+        "contact": "Contact"
+      },
+      "resourcesTitle": "Ressources",
+      "resourcesLinks": {
+        "blog": "Blog",
+        "podcasts": "Podcasts",
+        "freeTools": "Outils gratuits"
+      },
+      "connectTitle": "Connectez-vous avec nous",
+      "socialLinks": {
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn"
+      },
+      "logoTitle": "Notre logo",
+      "logoName": "KHALED ATIK",
+      "copyrightText": "© 2024 Tous droits réservés",
+      "copyrightLogoText": "KHALED ATIK"
+    
+    
+  },
+  
+    "services": {
+      "title": "Services",
+      "description": "Nous sommes dédiés à fournir des services exceptionnels qui favorisent le succès et transforment votre entreprise. Avec un engagement envers l'excellence, nous sommes fiers d'offrir une gamme complète de services.",
+      "motivationalSpeaker": {
+        "title": "Conférencier Motivational",
+        "description": "En tant que conférencier motivationnel, je vise à inspirer et à autonomiser les individus pour qu'ils atteignent leur plein potentiel. Grâce à des discours engageants et des histoires personnelles, j'aide les gens à surmonter les défis et à adopter un changement positif."
+      },
+      "lifeCoach": {
+        "title": "Coach de Vie",
+        "description": "En tant que coach de vie, je fournis des conseils personnalisés pour aider les clients à naviguer dans leurs parcours de vie. Je me concentre sur la définition d'objectifs, la découverte de soi et le développement de plans d'action pour atteindre le succès personnel et professionnel."
+      },
+      "mentalHealthTherapist": {
+        "title": "Thérapeute en Santé Mentale",
+        "description": "J'offre des services de thérapie pour soutenir le bien-être mental. Mon approche est compatissante et centrée sur le client, en me concentrant sur l'aide aux individus pour faire face au stress, à l'anxiété et aux défis émotionnels."
+      },
+      "businessAdvisor": {
+        "title": "Conseiller en Affaires",
+        "description": "En tant que conseiller en affaires, je fournis des informations stratégiques pour aider les organisations à croître et à prospérer. Je me spécialise dans l'efficacité opérationnelle, les stratégies marketing et la planification financière."
+      }
+    },
+    "events" : {
+      "title": "Nos Événements"
+  }
+
+  
+  
+    
+    
+  }
+  

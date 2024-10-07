@@ -1,0 +1,51 @@
+<section class="contact" id="contact">
+    <div class="container">
+      <div class="heading text-center">
+        <h2>{{"Contact.contact_us"|translate}}</h2>
+        <p>{{"Contact.contactMessage"|translate}}</p>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="title">
+            <h3>{{"Contact.contact_details"|translate}}</h3>
+            <p></p>
+          </div>
+          <div class="content">
+            <!-- Info-1 -->
+            <div class="info">
+           
+              <h4 class="d-inline-block">{{"Contact.phone"|translate}}<br><span>+213 559 27 94 99</span></h4>
+            </div>
+            <!-- Info-2 -->
+            <div class="info">
+      
+              <h4 class="d-inline-block">{{"Contact.email"|translate}}<br><span>atik.khaled90@gmail.com</span></h4>
+            </div>
+            <!-- Info-3 -->
+           
+          </div>
+        </div>
+  
+        <div class="col-md-7">
+          <form (ngSubmit)="onSubmit()">
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="{{'Contact.name'|translate}}" [(ngModel)]="contactData.name" name="name">
+              </div>
+              <div class="col-sm-6">
+                <input type="email" class="form-control" placeholder="{{'Contact.email'|translate}}" [(ngModel)]="contactData.email" name="email">
+              </div>
+              <div class="col-sm-12">
+                <input type="text" class="form-control" placeholder="{{'Contact.subject'|translate}}" [(ngModel)]="contactData.subject" name="subject">
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="comment" placeholder="{{'Contact.message'|translate}}" [(ngModel)]="contactData.message" name="message"></textarea>
+            </div>
+            <button class="btn btn-block" type="submit">{{"Contact.send_now"|translate}}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  

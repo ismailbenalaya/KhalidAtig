@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.contact {
+    padding: 130px 0;
+    font-family:"Montserrat",sans-serif ;
+}
+
+.contact .heading h2 {
+    font-size: 30px;
+  
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.contact .heading h2{
+    color: #253b72;
+}
+
+.contact .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #253b72;
+    color: #ffffff;
+}
+
+.contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.6;
+    margin: 0 0 40px;
+}
+
+.contact .content .info {
+    margin-top: 30px;
+}
+.contact .content .info i {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #02434b;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+}
+.contact .content .info h4 {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.contact .content .info h4 span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.toast.custom-toast {
+    background-color: #1a2541 !important; /* Background color */
+  }
+  
+  .toast.custom-toast .toast-message {
+    color: #ffffff; /* Text color */
+  }
+  
+  /* Optionally add other styles */
+  .toast.custom-toast .toast-title {
+    color: #ffffff; /* Title color */
+  }

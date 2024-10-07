@@ -1,0 +1,162 @@
+{
+    "Navbar": {
+      "HOME": "Home",
+      "ABOUT_ME": "About Me",
+      "SERVICES": "Services",
+      "CONSULTATION":"Consultations",
+      "REVIEWS": "Reviews",
+      "CONTACT": "Contact"
+    },
+    "Home": {
+    "COACH": "COACH",
+    "NAME": "KHALED ATIK",
+    "TAGLINE": "Continuous development is the path to achieving any success, whether individual or collective.",
+    "Button": "Get Started"
+    },
+    "About" :{
+      "title": " Khaled Atik :",
+      "description": "Khaled Atik is a life coach and business development strategist passionate about guiding people through psychological crises and personal growth. With over 12 years of experience and a background in various business fields, he founded Atiq Global Development at 27, focusing on developing individuals and businesses. Khaled, who grew up in a family that values ethics, is committed to enhancing the Arab community's lifestyle and potential."
+    },
+    
+      "Services": {
+        "title": "Personal Development Consulting",
+        "description": "Personal development consulting sessions focus on improving various aspects of life such as personal growth, goal achievement, self-confidence, overcoming emotional or psychological challenges, and developing self-skills.",
+        "benefits": {
+          "0": {
+            "title": "Individual Focus",
+            "description": "Provides a focus on the individual’s needs and goals rather than a general or group approach.",
+            "icon": "person"
+          },
+          "1": {
+            "title": "Personalized Guidance",
+            "description": "The consultant offers advice and strategies based on a detailed analysis of the client’s situation.",
+            "icon": "hand-thumbs-up"
+          },
+          "2": {
+            "title": "Achieve Goals",
+            "description": "The personal consultant helps set clear goals and creates a realistic action plan to achieve them, with continuous progress monitoring.",
+            "icon": "flag"
+          },
+          "3": {
+            "title": "Overcome Psychological Challenges",
+            "description": "Helps individuals address and overcome emotional or psychological obstacles that may hinder growth.",
+            "icon": "heart"
+          },
+          "4": {
+            "title": "Increase Self-Awareness",
+            "description": "Consulting helps individuals understand their strengths and weaknesses, enhancing their self-awareness and improving their interaction with the world.",
+            "icon": "eye"
+          },
+          "5": {
+            "title": "Support and Motivation",
+            "description": "The consultant provides continuous support and motivation to stay committed to personal change and improvement.",
+            "icon": "chat"
+          },
+          "6": {
+            "title": "Work-Life Balance",
+            "description": "Consultations focus on achieving a healthy balance between work and personal life, improving overall quality of life.",
+            "icon": "balance-scale"
+          }
+        }
+      },
+      "Contact" :{
+        "contact_us": "Contact Us",
+        "contactMessage": "Reach out through the form or the contact details below, and let’s connect.",      
+        "email": "Email",
+        "name": "Name",
+        "subject": "Subject",
+        "message": "Message",
+        "contact_details": "Contact Details",
+        "phone": "Phone",
+        "address": "Address",
+        "send_now": "Send Now"
+      },
+      
+    "REVIEWS": {
+    "TITLE": "Customer Reviews",
+    "INTRO": "Here's what our customers have to say about their experience with us:",
+    "REVIEW_1": {
+      "TEXT": "Confident, capable, and radiates a sense of comfort."
+    },
+    "REVIEW_2": {
+      "TEXT": "A coach who can logically persuade attendees."
+    },
+    "REVIEW_3": {
+      "TEXT": "Gave us the most important things first."
+    },
+    "REVIEW_4": {
+      "TEXT": "Incredible ability in speaking and engaging minds, with humor and light-heartedness."
+    },
+    "REVIEW_5": {
+      "TEXT": "A coach as simple and clear as possible, conveying information in an understandable way, motivating, and simplifying the path to achieving goals."
+    },
+    "REVIEW_6": {
+      "TEXT": "Positive energy."
+    }
+  },
+  "MSG" :{
+    "SUCCESS_MESSAGE": "Your email has been sent!",
+    "ERROR_MESSAGE": "There was an error sending your email."
+},
+"footer": {
+  "companyTitle": "Company",
+  "companyLinks": {
+    "home": "Home",
+    "services": "Our Services",
+    "review": "Review",
+    "contact": "Contact"
+  },
+  "resourcesTitle": "Resources",
+  "resourcesLinks": {
+    "blog": "Blog",
+    "podcasts": "Podcasts",
+    "freeTools": "Free Tools"
+  },
+  "connectTitle": "Connect With Us",
+  "socialLinks": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  },
+  "logoTitle": "Our Logo",
+  "logoName": "KHALED ATIK",
+  "copyrightText": "© 2024 All Rights Reserved",
+  "copyrightLogoText": "KHALED ATIK"
+},
+
+  "services": {
+    "title": "Services",
+    "description": "We are dedicated to delivering exceptional services that drive success and transform your business. With a commitment to excellence, we take pride in offering a comprehensive range of services.",
+    "motivationalSpeaker": {
+      "title": "Motivational Speaker",
+      "description": "As a motivational speaker, I aim to inspire and empower individuals to reach their full potential. Through engaging talks and personal stories, I help people overcome challenges and embrace positive change."
+    },
+    "lifeCoach": {
+      "title": "Life Coach",
+      "description": "As a life coach, I provide personalized guidance to help clients navigate their life journeys. I focus on goal setting, self-discovery, and developing actionable plans to achieve personal and professional success."
+    },
+    "mentalHealthTherapist": {
+      "title": "Mental Health Therapist",
+      "description": "I offer therapy services to support mental well-being. My approach is compassionate and client-centered, focusing on helping individuals cope with stress, anxiety, and emotional challenges."
+    },
+    "businessAdvisor": {
+      "title": "Business Advisor",
+      "description": "As a business advisor, I provide strategic insights to help organizations grow and thrive. I specialize in operational efficiency, marketing strategies, and financial planning."
+    }
+  },
+  "events" : {
+      "title": "Our Events"
+  }
+
+
+
+      
+      
+      
+      
+    
+    
+    }
+    
+  
+  

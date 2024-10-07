@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&subset=arabic&display=swap');
+
+#home {
+    background: linear-gradient(rgba(26, 37, 65, 0.8), rgba(26, 37, 65, 0.8)), url("/assets/img/chess.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2em;
+    line-height: 1.6;
+    font-weight: bold;
+    color: #fcfcfc;
+    font-family: 'Ananda Black', sans-serif; /* Custom font for English/French */
+}
+
+.title {
+    font-size: 3em;
+    line-height: 1.6;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: #fcfcfc;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#home h2 {
+    color: #f5b959;
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-family: 'Ananda Black', sans-serif; /* Custom font for English/French */
+}
+
+#home p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: #fcfcfc;
+    font-family: "Montserrat", sans-serif; /* Default font for English/French */
+}
+
+#home .btn {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 30px;
+    color: #333;
+    font-family: "Montserrat", sans-serif; /* Default font for English/French */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 30px;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+#home .btn:hover {
+    background: #f5b959;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#home .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home .col-md-6 {
+    flex: 1;
+}
+
+#home .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#home .image-content img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+
+/* RTL Styles */
+/* Font size adjustments for RTL content */
+
+[dir="rtl"] #home h1,
+ [dir="rtl"] #home h2,
+ [dir="rtl"] #home p {
+  font-family: 'Vazirmatn', sans-serif; /* Arabic font */
+  font-size: 100%; /* Set the same size as LTR initially */
+}
+
+/* Adjust font sizes for Arabic version, if needed */
+ [dir="rtl"] #home h1 {
+  font-size: 2em; /* Adjust to match English version */
+}
+
+[dir="rtl"] #home h2 {
+  font-size: 3em; /* Same size as English */
+}
+
+ [dir="rtl"] #home p {
+  font-size: 1.2em; /* Adjust paragraph size if needed */
+}
+
+
+/* Responsive styles for mobile screens */
+@media screen and (max-width: 768px) {
+    #home .container,
+    #home .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home .image-content {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    #home .image-content img {
+        width: 300px; /* Scale image down for mobile */
+    }
+
+    #home h1 {
+        font-size: 1.5em; /* Smaller heading for mobile */
+    }
+
+    #home h2 {
+        font-size: 2em; /* Smaller subheading for mobile */
+    }
+
+    #home p {
+        font-size: 1em; /* Smaller paragraph text for mobile */
+    }
+
+    #home .btn {
+        font-size: 14px;
+        padding: 15px 25px; /* Adjust button size for mobile */
+    }
+}
