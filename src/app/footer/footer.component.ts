@@ -34,24 +34,27 @@ export class FooterComponent {
   private applyArabicStyles(): void {
     this.renderer.setAttribute(document.documentElement, 'dir', 'rtl'); // Set RTL direction
     this.renderer.setStyle(document.body, 'font-family', this.arabicFontFamily); // Apply Arabic font
-
+  
     const footer = document.querySelector('.footer');
     if (footer) {
-        // Align text to the right for RTL
-        this.renderer.setStyle(footer, 'text-align', 'right');
-        
-        const titles = footer.querySelectorAll('h4'); // Change to 'h4' for footer titles
-        const links = footer.querySelectorAll('a'); 
-        const image = footer.querySelector('img'); // Change to 'img' for the image
-
-        links.forEach((link) => {
-            this.renderer.setStyle(link, 'font-family', this.paragraphFontFamily);
-        });
-
-        // Change the margin of the image
-        this.renderer.setStyle(image, 'margin-right', '100px');
+      // Align text to the right for RTL
+      this.renderer.setStyle(footer, 'text-align', 'right');
+  
+      const titles = footer.querySelectorAll('h4'); // Footer titles
+      const links = footer.querySelectorAll('a'); 
+      const image = footer.querySelector('img'); // Footer image
+  
+      links.forEach((link) => {
+        this.renderer.setStyle(link, 'font-family', this.paragraphFontFamily);
+      });
+  
+      // Change the margin of the image for larger screens
+      this.renderer.setStyle(image, 'margin-right', '110px');
     }
-}
+  
+
+  }
+  
 
   private removeArabicStyles(): void {
     this.renderer.setAttribute(document.documentElement, 'dir', 'ltr'); // Set LTR direction

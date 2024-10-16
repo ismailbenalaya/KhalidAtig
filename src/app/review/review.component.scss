@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'); /* FontAwesome for icons */
 
 :root {
   --primary-color: #ff226f;
   --primary-color-dark: #fe6769;
   --text-dark: #333333;
   --white: #ffffff;
+  --gold-color: #ffd700; /* Gold color */
 }
 
 * {
@@ -26,11 +28,58 @@ body {
   gap: 10rem;
   font-family: "Montserrat", sans-serif;
 }
+
 .container_left h1 {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  margin-bottom: 2rem;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #253b72;
 }
+
+.container_left p {
+  margin-bottom: 1rem;
+}
+
+.card {
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card_content {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+
+
+
+.card_content i {
+  font-size: 2rem;
+  color: #253b72;
+}
+
+.card_details p {
+  font-style: italic;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.card_details h4 {
+  text-align: right;
+  color: #253b72;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 /* For tablet screens (max-width: 768px), we'll make it a single column */
 @media (max-width: 768px) {
   .container_Review {
@@ -62,49 +111,4 @@ body {
   .card_details h4 {
     font-size: 0.9rem;
   }
-}
-
-.container_left h1 {
-  margin-bottom: 2rem;
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #253b72;
-}
-
-.container_left p {
-  margin-bottom: 1rem;
-}
-
-.card {
-  padding: 2rem;
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-  margin-bottom: 10px;
-  background-color: #ffffff;
-  border-radius: 1rem;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card_content {
-  display: flex;
-  gap: 1rem;
-}
-
-.card_content i {
-  font-size: 2rem;
-  color: #253b72;
-}
-
-.card_details p {
-  font-style: italic;
-  color: #333333;
-  margin-bottom: 1rem;
-}
-
-.card_details h4 {
-  text-align: right;
-  color: #253b72;
-  font-size: 1rem;
-  font-weight: 500;
 }

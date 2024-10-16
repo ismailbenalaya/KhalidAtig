@@ -42,18 +42,18 @@
           "icon": "heart"
         },
         "4": {
-          "title": "Augmenter la Conscience de Soi",
-          "description": "Les consultations aident les individus à comprendre leurs forces et leurs faiblesses, améliorant ainsi leur conscience de soi et leur interaction avec le monde.",
+          "title": "Concept du projet et planification",
+          "description": "Le consultant aide à développer un concept de projet clair et un plan stratégique pour garantir une exécution réussie, y compris l'identification des objectifs, des ressources et des défis potentiels.",
           "icon": "eye"
         },
         "5": {
-          "title": "Soutien et Motivation",
-          "description": "Le consultant fournit un soutien et une motivation continus pour rester engagé dans le changement personnel et l'amélioration.",
+          "title": "Développement de la marque personnelle",
+          "description": "Se concentre sur l'amélioration de l'image personnelle et de la marque du client, en l'aidant à établir une présence forte et crédible dans son domaine grâce à des conseils et des stratégies sur mesure.",
           "icon": "comments"
         },
         "6": {
-          "title": "Équilibre Travail-Vie Personnelle",
-          "description": "Les consultations se concentrent sur l'atteinte d'un équilibre sain entre le travail et la vie personnelle, améliorant ainsi la qualité de vie globale.",
+          "title": "Leadership de l'équipe",
+          "description": "Fournit des stratégies pour construire et diriger une équipe efficace, assurant collaboration, motivation et alignement des objectifs pour réussir les projets professionnels.",
           "icon": "balance-scale"
         }
       }

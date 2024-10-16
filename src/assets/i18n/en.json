@@ -39,22 +39,22 @@
           },
           "3": {
             "title": "Overcome Psychological Challenges",
-            "description": "Helps individuals address and overcome emotional or psychological obstacles that may hinder growth.",
+            "description": "The consultant helps develop a clear project concept and strategic plan to ensure successful execution, including identifying goals, resources, and potential challenges.",
             "icon": "heart"
           },
           "4": {
-            "title": "Increase Self-Awareness",
-            "description": "Consulting helps individuals understand their strengths and weaknesses, enhancing their self-awareness and improving their interaction with the world.",
+            "title": "Project Concept and Planning",
+            "description": "The consultant helps develop a clear project concept and strategic plan to ensure successful execution, including identifying goals, resources, and potential challenges. ",
             "icon": "eye"
           },
           "5": {
-            "title": "Support and Motivation",
-            "description": "The consultant provides continuous support and motivation to stay committed to personal change and improvement.",
+            "title": "Personal Brand Development",
+            "description": "Focuses on enhancing the client's personal image and brand, helping them establish a strong, credible presence in their field through tailored advice and strategies.",
             "icon": "chat"
           },
           "6": {
-            "title": "Work-Life Balance",
-            "description": "Consultations focus on achieving a healthy balance between work and personal life, improving overall quality of life.",
+            "title": "Team Leadership",
+            "description": "Provides strategies to build and lead an effective team, ensuring collaboration, motivation, and goal alignment to drive success in professional projects.",
             "icon": "balance-scale"
           }
         }
