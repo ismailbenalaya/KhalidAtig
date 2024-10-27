@@ -2,6 +2,7 @@ import { Component, Renderer2 } from '@angular/core';
 import { ContactService } from '../contact.service';
 import { ToastrService } from 'ngx-toastr';
 import { TranslateService } from '@ngx-translate/core';
+import emailjs, { EmailJSResponseStatus } from '@emailjs/browser'; 
 
 @Component({
   selector: 'app-contact',
@@ -15,6 +16,9 @@ export class ContactComponent {
   private readonly paragraphFontFamily = "'Amiri', sans-serif";
   private readonly titleFontEnglishFamily = "'Overpass', sans-serif";
   private readonly titleFontSize = '40px';
+  private readonly SERVICE_ID = 'service_a6af13q';
+  private readonly TEMPLATE_ID = 'template_ggzn1xj';
+  private readonly PUBLIC_KEY = 'BGu-QjQhTGwYoMlPn';
 
   contactData = {
     name: '',
@@ -24,7 +28,7 @@ export class ContactComponent {
   };
 
   constructor(
-    private contactService: ContactService,
+   
     private toastr: ToastrService,
     private translate: TranslateService,
     private renderer: Renderer2
@@ -90,21 +94,17 @@ export class ContactComponent {
   }
 
   onSubmit() {
-    this.contactService.sendEmail(this.contactData).subscribe(
-      response => {
+    emailjs.send(this.SERVICE_ID, this.TEMPLATE_ID, this.contactData, this.PUBLIC_KEY)
+      .then((response) => {
         console.log('Email sent successfully', response);
-        // Get the success message based on the current language
         const successMessage = this.translate.instant('MSG.SUCCESS_MESSAGE');
         this.toastr.success(successMessage, 'Success');
         this.resetForm();
-      },
-      error => {
+      }, (error) => {
         console.error('Error sending email', error);
-        // Get the error message based on the current language
         const errorMessage = this.translate.instant('MSG.ERROR_MESSAGE');
         this.toastr.error(errorMessage, 'Error');
-      }
-    );
+      });
   }
 
   resetForm() {

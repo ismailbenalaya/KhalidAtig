@@ -20,6 +20,9 @@
     "Services": {
       "title": "Consultation en Développement Personnel",
       "description": "Les séances de consultation en développement personnel se concentrent sur l'amélioration de divers aspects de la vie tels que la croissance personnelle, l'accomplissement des objectifs, la confiance en soi, la surmontée des défis émotionnels ou psychologiques et le développement des compétences personnelles.",
+      "additionalTitle" :"Consultation en Affaires et Entrepreneuriat",
+      "additionalDescription" :"Développez votre plein potentiel dans le monde des affaires avec des services de consultation adaptés à la croissance et à l'innovation. Que vous soyez un entrepreneur débutant ou un propriétaire d'entreprise confirmé, nous vous fournissons des conseils stratégiques et un accompagnement personnalisé pour relever les défis, optimiser vos opérations et atteindre vos objectifs en toute confiance.",
+
       "benefits": {
         "0": {
           "title": "Focus Individuel",
@@ -68,7 +71,8 @@
       "contact_details": "Détails du Contact",
       "phone": "Téléphone",
       "address": "Adresse",
-      "send_now": "Envoyer Maintenant"
+      "send_now": "Envoyer Maintenant",
+      "number" : "+213779528435"
     },
     "REVIEWS": {
       "TITLE": "Avis des clients",

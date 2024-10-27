@@ -9,7 +9,7 @@
     },
     "Home": {
     "COACH": "COACH",
-    "NAME": "KHALED ATIK",
+    "NAME": "Khaled Atik",
     "TAGLINE": "Continuous development is the path to achieving any success, whether individual or collective.",
     "Button": "Get Started"
     },
@@ -21,6 +21,9 @@
       "Services": {
         "title": "Personal Development Consulting",
         "description": "Personal development consulting sessions focus on improving various aspects of life such as personal growth, goal achievement, self-confidence, overcoming emotional or psychological challenges, and developing self-skills.",
+        "additionalTitle" :"Business and Entrepreneurship Consulting",
+        "additionalDescription" :"Unlock your full potential in the business world with tailored consulting services focused on growth and innovation. Whether you're an aspiring entrepreneur or an established business owner, we provide the strategic insights and personalized guidance you need to overcome challenges, optimize operations, and achieve your goals with confidence.",
+
         "benefits": {
           "0": {
             "title": "Individual Focus",
@@ -69,7 +72,8 @@
         "contact_details": "Contact Details",
         "phone": "Phone",
         "address": "Address",
-        "send_now": "Send Now"
+        "send_now": "Send Now",
+        "number" : "+213779528435"
       },
       
     "REVIEWS": {

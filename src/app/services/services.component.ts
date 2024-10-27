@@ -30,39 +30,66 @@ private applyArabicStyles() {
   this.renderer.setAttribute(document.documentElement, 'dir', 'rtl'); // Set RTL
   this.renderer.setStyle(document.body, 'font-family', this.arabicFontFamily);
 
+  const sections = document.querySelectorAll('.section-services, .header-section');
 
-  const servicesSection = document.querySelector('.section-services');
-  const containers = document.querySelectorAll('.single-service'); 
+  sections.forEach(section => {
+    if (section) {
+      const title = section.querySelector('h2');
+      const description = section.querySelector('p');
 
- // Use class selector here
-  if (servicesSection) {
-    this.renderer.setStyle(servicesSection.querySelector('h2'), 'font-family', this.titleFontFamily);
-    this.renderer.setStyle(servicesSection.querySelector('p'), 'font-family', this.paragraphFamily);
+      if (title) {
+        this.renderer.setStyle(title, 'font-family', this.titleFontFamily);
+        this.renderer.setStyle(title, 'font-size', '2em');
+      }
 
-    // Adjusting sizes specifically for Arabic
-    this.renderer.setStyle(servicesSection.querySelector('h1'), 'font-size', '2em');
-    this.renderer.setStyle(servicesSection.querySelector('p'), 'font-size', '5em');
-  } 
-  
+      if (description) {
+        this.renderer.setStyle(description, 'font-family', this.paragraphFamily);
+        this.renderer.setStyle(description, 'font-size', '1.2em'); // Adjusted from 5em to a more reasonable size
+      }
+    }
+  });
+
   // Apply styles to all single service containers
+  const containers = document.querySelectorAll('.single-service');
   containers.forEach(container => {
-    this.renderer.setStyle(container.querySelector('h3'), 'font-family', this.titleFontFamily);
+    const containerTitle = container.querySelector('h3');
+    if (containerTitle) {
+      this.renderer.setStyle(containerTitle, 'font-family', this.titleFontFamily);
+    }
   });
 }
 
 
-  private removeArabicStyles() {
-    this.renderer.setAttribute(document.documentElement, 'dir', 'ltr'); // Reset to LTR
-    this.renderer.setStyle(document.body, 'font-family', this.defaultFontFamily);
+private removeArabicStyles() {
+  this.renderer.setAttribute(document.documentElement, 'dir', 'ltr'); // Reset to LTR
+  this.renderer.setStyle(document.body, 'font-family', this.defaultFontFamily);
 
-    const servicesSection = document.querySelector('.section-services');
-    if (servicesSection) {
-      this.renderer.removeStyle(servicesSection.querySelector('h2'), 'font-family');
-      this.renderer.removeStyle(servicesSection.querySelector('p'), 'font-family');
+  const sections = document.querySelectorAll('.section-services, .header-section');
 
-      // Resetting sizes back to default
-      this.renderer.removeStyle(servicesSection.querySelector('h1'), 'font-size');
-      this.renderer.removeStyle(servicesSection.querySelector('p'), 'font-size');
+  sections.forEach(section => {
+    if (section) {
+      const title = section.querySelector('h2');
+      const description = section.querySelector('p');
+
+      if (title) {
+        this.renderer.setStyle(title, 'font-family', this.defaultFontFamily);
+        this.renderer.setStyle(title, 'font-size', '1.75em'); // Slightly smaller than Arabic
+      }
+
+      if (description) {
+        this.renderer.setStyle(description, 'font-family', this.defaultFontFamily);
+        this.renderer.setStyle(description, 'font-size', '1em'); // Default size
+      }
     }
-  }
+  });
+
+  // Apply default styles to all single service containers
+  const containers = document.querySelectorAll('.single-service');
+  containers.forEach(container => {
+    const containerTitle = container.querySelector('h3');
+    if (containerTitle) {
+      this.renderer.setStyle(containerTitle, 'font-family', this.defaultFontFamily);
+    }
+  });
+}
 }

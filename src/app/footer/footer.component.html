@@ -4,10 +4,10 @@
       <div class="footer-col">
         <h4>{{ "footer.companyTitle" | translate }}</h4>
         <ul>
-          <li><a href="#">{{ "footer.companyLinks.home" | translate }}</a></li>
-          <li><a href="#">{{ "footer.companyLinks.services" | translate }}</a></li>
-          <li><a href="#">{{ "footer.companyLinks.review" | translate }}</a></li>
-          <li><a href="#">{{ "footer.companyLinks.contact" | translate }}</a></li>
+          <li><a (click)="scrollToSection('about-me')">{{ "footer.companyLinks.home" | translate }}</a></li>
+          <li><a (click)="scrollToSection('services')">{{ "footer.companyLinks.services" | translate }}</a></li>
+          <li><a (click)="scrollToSection('reviews')">{{ "footer.companyLinks.review" | translate }}</a></li>
+          <li><a (click)="scrollToSection('contact')">{{ "footer.companyLinks.contact" | translate }}</a></li>
         </ul>
       </div>
       <div class="footer-col">
