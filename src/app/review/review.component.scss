@@ -80,6 +80,37 @@ body {
   font-weight: 500;
 }
 
+button {
+  background-color: #F0B631;
+  color: #253b72;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: 0 0 0 0 #253b72;
+}
+
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+.get-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* Ensures no extra margins interfere */
+}
+
 /* For tablet screens (max-width: 768px), we'll make it a single column */
 @media (max-width: 768px) {
   .container_Review {

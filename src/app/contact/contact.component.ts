@@ -16,9 +16,9 @@ export class ContactComponent {
   private readonly paragraphFontFamily = "'Amiri', sans-serif";
   private readonly titleFontEnglishFamily = "'Overpass', sans-serif";
   private readonly titleFontSize = '40px';
-  private readonly SERVICE_ID = 'service_a6af13q';
-  private readonly TEMPLATE_ID = 'template_ggzn1xj';
-  private readonly PUBLIC_KEY = 'BGu-QjQhTGwYoMlPn';
+  private readonly SERVICE_ID = 'service_ctpj32f';
+  private readonly TEMPLATE_ID = 'template_wfcon3k';
+  private readonly PUBLIC_KEY = 'TFZ_T7nDltMbbd6KG';
 
   contactData = {
     name: '',
@@ -94,6 +94,12 @@ export class ContactComponent {
   }
 
   onSubmit() {
+    const templateParams = {
+      name: this.contactData.name,
+      email: this.contactData.email,
+      subject: this.contactData.subject,
+      message: this.contactData.message
+    };
     emailjs.send(this.SERVICE_ID, this.TEMPLATE_ID, this.contactData, this.PUBLIC_KEY)
       .then((response) => {
         console.log('Email sent successfully', response);

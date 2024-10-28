@@ -150,7 +150,10 @@
   },
   "events" : {
       "title": "Our Events"
-  }
+  },
+  "Hover" : {
+    "title" : "Call Now"
+}
 
 
 
